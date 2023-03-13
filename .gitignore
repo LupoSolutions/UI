@@ -1,0 +1,31 @@
+# macOS
+._*
+.DS_Store
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/
+jsconfig.json
+
+# TypeScript Definitions
+typings/
+
+# npm
+node_modules/
+npm-cache/
+npm-debug/
+npm-debug.log
+
+# Istanbul
+/coverage
+
+# Build/Development
+/dist
+/deploy
