@@ -28,13 +28,16 @@ import ShoppingCart from "./containers/cart/ShoppingCartTwo";
 const App = () => {
     return (
         <div className="container">
+            <div className="top-grid">
             <Header/>
-            <NavBar/>
             <SearchBar/>
-            <div className="filler"/>
-            <Filter/>
+                <Filter/>
+            <div className="item-grid">
             <Content/>
-            <ShoppingCart/>
+            </div>
+            </div>
+
+            {/*<ShoppingCart/>*/}
 
         </div>
     )

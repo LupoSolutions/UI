@@ -10,9 +10,13 @@ class Content extends React.Component {
     render() {
         return (
             <>
+                <div className="header-test">
+                <h1>Noodles</h1>
+              <p>Discover what you need with ease</p>
+                </div>
                 {this.props.content.map((value) =>
-                    <div className="content">
-                        <article>
+                    <div className="item">
+                    <article>
                             <img alt={value.description}
                                  src={value.pictureUrl}/>
                             <div role="button">
@@ -22,6 +26,7 @@ class Content extends React.Component {
                         </article>
                     </div>
                 )}
+
             </>
         )
     }
